@@ -1,0 +1,6 @@
+framework module Pods_GGXAppleSpeech_Example {
+  umbrella header "Pods-GGXAppleSpeech_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

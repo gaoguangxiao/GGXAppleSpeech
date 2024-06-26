@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GGXAppleSpeech (0.1.0):
+    - TKPermissionKit/Speech
+  - TKPermissionKit/Public (1.2.6)
+  - TKPermissionKit/Speech (1.2.6):
+    - TKPermissionKit/Public
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - GGXAppleSpeech (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - TKPermissionKit
+
+EXTERNAL SOURCES:
+  GGXAppleSpeech:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GGXAppleSpeech: 7084861ec944ecb41098cebd83a04efe2bcfd674
+  TKPermissionKit: adf490d7b40546343fff2b37921db9e1a8532864
+
+PODFILE CHECKSUM: 55879ae532e099588d0df8a8152a8b0dc3a3ea07
+
+COCOAPODS: 1.15.0

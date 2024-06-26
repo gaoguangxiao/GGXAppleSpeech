@@ -1,0 +1,1288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ADB1E5E477C5CBABD4E39DC9FAD7107 /* TKPermissionKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC7148DBA80727EB1F466F8ECD8032E8 /* TKPermissionKit.bundle */; };
+		1B7065D27DE06C9D7B60A3B4A2CE20EB /* TKPermissionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C8331A58EE5276080E274AF23A5BB4 /* TKPermissionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A114FC0D964B0BDA211486BB76C839 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9BFCDC184B5C14D3FBFBA7653F422 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1D6F2E9396A653A356289661C3F7E6 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A61D7F5AE90C8FAE49B56A7F6A973C /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA9C8BB6877A8303DC9132F3219EF03 /* Foundation.framework */; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DECA72858FD92AB5C0379DCF01A1F1 /* FBSnapshotTestCasePlatform.m */; };
+		32AB2A1A49199439EDCA78F181C8BDBB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F70D4B73ADBD5BD141097D54FC2C6 /* ReplaceMe.swift */; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = B312B7629D0BC44A2E83A9B76A97A7D6 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3C7E241289704F65F75919C22BAC2F76 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CAD2D8C656BCF8549EB514B0B7968F /* Speech.framework */; };
+		4961AA983E316A0974361C28748379D1 /* Pods-GGXAppleSpeech_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B967686020229B3BD5F49B33C70EB1B /* Pods-GGXAppleSpeech_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49AD18DB7CC5B4B9D11F88A84826A6DF /* GGXAppleSpeech-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DD450351843B6E71707509DDAB0E13 /* GGXAppleSpeech-dummy.m */; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4B2F99A842D002CCEE773FD9A5FF71 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8B2EB47C1D05BA6D8E4D0107500F0F /* FBSnapshotTestCase-dummy.m */; };
+		6077523B973B905446D9AF23BF4D4B72 /* Pods-GGXAppleSpeech_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3F62DC7C6E06CCF31CA80B4E7626B7F /* Pods-GGXAppleSpeech_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629DE22A727173E48AC017C60E34DF3D /* TKPermissionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E36E3B4A23C17B94D562AE41D5349A /* TKPermissionKit-dummy.m */; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E541ED286A6F43C8EBE1B6016EDCB5 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E75DCB643B2A9D30BCE958684E4E1153 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 82013BB944F13806C3001F114F230F07 /* UIApplication+StrictKeyWindow.m */; };
+		76BFE34AB98C3C2C23364D1B5BC0C691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA9C8BB6877A8303DC9132F3219EF03 /* Foundation.framework */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB3F3769C7920E0035BE9DF7E621F1A /* FBSnapshotTestCase.m */; };
+		833690D87A6B2AC91515ACA69CC8B75F /* LKSpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088EDBDC018BF1C895E7D036F8D62D98 /* LKSpeechRecognizer.swift */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC53A6A188F0CDF981DB0A7F85902A6 /* UIKit.framework */; };
+		8A5516F32C52772155C8BF6ED941B104 /* Pods-GGXAppleSpeech_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19319DB23DE8FB761C416CF8491E8700 /* Pods-GGXAppleSpeech_Tests-dummy.m */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A161B9E50AFBEFF3B9CAC2B53FE243 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9A8AAAFDC24C630D14F622498ADB7153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFC53A6A188F0CDF981DB0A7F85902A6 /* UIKit.framework */; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287D6C3B491EE8B40A512F7709F6C902 /* XCTest.framework */; };
+		A482A6586AD89912B9AA9FBCA7F10F20 /* TKPermissionPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1783B8D4DC23B0F275C011EFD12D89 /* TKPermissionPublic.m */; };
+		ABB0084ECCA6410954EE73950F649993 /* TKPermissionSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C7BA6C4D958B55D8EFE3644AA0706F /* TKPermissionSpeech.m */; };
+		AC9327479BDC66537567976016CED14B /* Pods-GGXAppleSpeech_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782411FE920774502CA46FA3B7F2DFB /* Pods-GGXAppleSpeech_Example-dummy.m */; };
+		AFB3C061FA6862F5148D9CA6A8EC8EC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA9C8BB6877A8303DC9132F3219EF03 /* Foundation.framework */; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 327876D3C556FBB0836AE5BB94861EBF /* UIImage+Compare.m */; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29785171C65917963252392CCB165F1C /* FBSnapshotTestController.m */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E5C3B2ABF9E975466A4327DA6FA6EE /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B728F33BB6952E8DF3F1680F51B76 /* UIImage+Diff.m */; };
+		CE87B11F92A9B509C77CDE34139281F6 /* SpeechConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F7ACEA272473BC08C8FBD3F52F808 /* SpeechConfig.swift */; };
+		D75C845468C547F736C57E19EB095A08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA9C8BB6877A8303DC9132F3219EF03 /* Foundation.framework */; };
+		EA93662ADD0CD438CDE047518C2D6234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA9C8BB6877A8303DC9132F3219EF03 /* Foundation.framework */; };
+		F41AFEB0E58E802F134C4159D84071BB /* TKPermissionSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = D0D4A4362EAAE5D0EBBCC885F4227303 /* TKPermissionSpeech.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7390CB3EC481EE11EB881101F1964C2 /* TKPermissionPublic.h in Headers */ = {isa = PBXBuildFile; fileRef = CA907B5C54163BDEF218AFA953B46B3B /* TKPermissionPublic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7FEA1705CAAED324D75645EA7B7250 /* GGXAppleSpeech-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C7B441EF7319317D17D7864D4C1C7C /* GGXAppleSpeech-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 814D8CC2C70B8CD06798C96581137AF7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8145620255E55A9A07684D9DFDD5B271 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C7A77135B0DBB7BA0E598DB5CCF8E5;
+			remoteInfo = GGXAppleSpeech;
+		};
+		8E40E5F9B68AFB5D2282B494615BFC1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B0BFEA822589D0BC2E04BE0761BA9A;
+			remoteInfo = TKPermissionKit;
+		};
+		8F354B1596B568EC4165AC880010B86C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B0BFEA822589D0BC2E04BE0761BA9A;
+			remoteInfo = TKPermissionKit;
+		};
+		A50F8AF24440E97834C6C815D7514F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B67F5B189DFDC970C60ECBDB805D78;
+			remoteInfo = "Pods-GGXAppleSpeech_Example";
+		};
+		AA3B24C69A5CD131F46B07F2C4A72C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E5C3B2ABF9E975466A4327DA6FA6EE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		06BCACAA4BD4688AD162D05678BB4E86 /* Pods-GGXAppleSpeech_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXAppleSpeech_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		088EDBDC018BF1C895E7D036F8D62D98 /* LKSpeechRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LKSpeechRecognizer.swift; path = GGXAppleSpeech/Classes/LKSpeechRecognizer.swift; sourceTree = "<group>"; };
+		09C81FBC25BB745AAF3E7A934AFF2561 /* TKPermissionKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKPermissionKit.release.xcconfig; sourceTree = "<group>"; };
+		0E1D6F2E9396A653A356289661C3F7E6 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		19319DB23DE8FB761C416CF8491E8700 /* Pods-GGXAppleSpeech_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGXAppleSpeech_Tests-dummy.m"; sourceTree = "<group>"; };
+		20A161B9E50AFBEFF3B9CAC2B53FE243 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		24549BD1F1F6CDD861A6A72651ECAE7D /* Pods-GGXAppleSpeech_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGXAppleSpeech_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		254451B7A728830E878372AF57A15BD7 /* Pods-GGXAppleSpeech_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGXAppleSpeech_Example.modulemap"; sourceTree = "<group>"; };
+		263860305A703A30AD6120E22DAD163C /* Pods-GGXAppleSpeech_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXAppleSpeech_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2830B806CB142485B7D12AEFF4438E93 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		287D6C3B491EE8B40A512F7709F6C902 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		29785171C65917963252392CCB165F1C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		29EE745FC261D85F43068A2C902D1AEB /* Pods-GGXAppleSpeech_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXAppleSpeech_Example-Info.plist"; sourceTree = "<group>"; };
+		2D2F7ACEA272473BC08C8FBD3F52F808 /* SpeechConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechConfig.swift; path = GGXAppleSpeech/Classes/SpeechConfig.swift; sourceTree = "<group>"; };
+		2D4B2F99A842D002CCEE773FD9A5FF71 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		31DD06D502F38BFE9291F5EC3F46477B /* TKPermissionKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKPermissionKit-Info.plist"; sourceTree = "<group>"; };
+		327876D3C556FBB0836AE5BB94861EBF /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		35C7B441EF7319317D17D7864D4C1C7C /* GGXAppleSpeech-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGXAppleSpeech-umbrella.h"; sourceTree = "<group>"; };
+		38CAD2D8C656BCF8549EB514B0B7968F /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Speech.framework; sourceTree = DEVELOPER_DIR; };
+		4B637376E55FFD630EA209238B7908A3 /* GGXAppleSpeech */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGXAppleSpeech; path = GGXAppleSpeech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50179FFCCB6706AE9EEF90B4D9393622 /* TKPermissionKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKPermissionKit; path = TKPermissionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5315DE6938FA8B8F6016BFD2B70F3194 /* Pods-GGXAppleSpeech_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGXAppleSpeech_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		55B9BFCDC184B5C14D3FBFBA7653F422 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		577ADE8483EB95E5D0654EB6176F08D4 /* Pods-GGXAppleSpeech_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGXAppleSpeech_Example"; path = Pods_GGXAppleSpeech_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590F766AE1293A5A21857CF5E2698908 /* Pods-GGXAppleSpeech_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXAppleSpeech_Tests-Info.plist"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8B2EB47C1D05BA6D8E4D0107500F0F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		5D7B728F33BB6952E8DF3F1680F51B76 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		5FB4AC4595C4C506B0E410A3DE46888F /* Pods-GGXAppleSpeech_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGXAppleSpeech_Example-frameworks.sh"; sourceTree = "<group>"; };
+		60A114FC0D964B0BDA211486BB76C839 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		65C7BA6C4D958B55D8EFE3644AA0706F /* TKPermissionSpeech.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKPermissionSpeech.m; path = TKPermissionKit/Speech/TKPermissionSpeech.m; sourceTree = "<group>"; };
+		74A61D7F5AE90C8FAE49B56A7F6A973C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		7C07A6AD2628405791A6EF743A19A309 /* GGXAppleSpeech-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGXAppleSpeech-prefix.pch"; sourceTree = "<group>"; };
+		814D8CC2C70B8CD06798C96581137AF7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		81DECA72858FD92AB5C0379DCF01A1F1 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		81FE10314FB38C71E7A3F759B3430056 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		82013BB944F13806C3001F114F230F07 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		9782411FE920774502CA46FA3B7F2DFB /* Pods-GGXAppleSpeech_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGXAppleSpeech_Example-dummy.m"; sourceTree = "<group>"; };
+		984151DBE21E1FC16E82D456EBE0A032 /* Pods-GGXAppleSpeech_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXAppleSpeech_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B967686020229B3BD5F49B33C70EB1B /* Pods-GGXAppleSpeech_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGXAppleSpeech_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9BCA59806EE2E9394A21D57C428FEB88 /* Pods-GGXAppleSpeech_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXAppleSpeech_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0764BD375869B1B058FE6EDA49E7866 /* GGXAppleSpeech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGXAppleSpeech.debug.xcconfig; sourceTree = "<group>"; };
+		A4E36E3B4A23C17B94D562AE41D5349A /* TKPermissionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKPermissionKit-dummy.m"; sourceTree = "<group>"; };
+		AC7148DBA80727EB1F466F8ECD8032E8 /* TKPermissionKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TKPermissionKit.bundle; path = TKPermissionKit/Public/TKPermissionKit.bundle; sourceTree = "<group>"; };
+		AD19AB5B93614B0232C4FFA2DE819AE1 /* GGXAppleSpeech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGXAppleSpeech.release.xcconfig; sourceTree = "<group>"; };
+		AF3487FBAAF260DAD1278CC36E8F217A /* GGXAppleSpeech-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGXAppleSpeech-Info.plist"; sourceTree = "<group>"; };
+		B0C8331A58EE5276080E274AF23A5BB4 /* TKPermissionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKPermissionKit-umbrella.h"; sourceTree = "<group>"; };
+		B312B7629D0BC44A2E83A9B76A97A7D6 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		B97BD7B9AEEC8D99844A0411B302B6E9 /* GGXAppleSpeech.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGXAppleSpeech.modulemap; sourceTree = "<group>"; };
+		BB48A0EF1FAE8407D495703D953AF33E /* Pods-GGXAppleSpeech_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGXAppleSpeech_Tests.modulemap"; sourceTree = "<group>"; };
+		BE1783B8D4DC23B0F275C011EFD12D89 /* TKPermissionPublic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TKPermissionPublic.m; path = TKPermissionKit/Public/TKPermissionPublic.m; sourceTree = "<group>"; };
+		BF463F57A38D7EA460682DBFD1C4EB71 /* GGXAppleSpeech.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGXAppleSpeech.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C438273B8FCF79316B14246955E1DFD6 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		C773F553A5F0D5CBEA709CD8D4F64C7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA907B5C54163BDEF218AFA953B46B3B /* TKPermissionPublic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKPermissionPublic.h; path = TKPermissionKit/Public/TKPermissionPublic.h; sourceTree = "<group>"; };
+		D0D4A4362EAAE5D0EBBCC885F4227303 /* TKPermissionSpeech.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKPermissionSpeech.h; path = TKPermissionKit/Speech/TKPermissionSpeech.h; sourceTree = "<group>"; };
+		D140091A2BA81463AE8DDE55268E4230 /* Pods-GGXAppleSpeech_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGXAppleSpeech_Tests"; path = Pods_GGXAppleSpeech_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CFA53684EADFE733D5466F40704EFA /* TKPermissionKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKPermissionKit.debug.xcconfig; sourceTree = "<group>"; };
+		D2E541ED286A6F43C8EBE1B6016EDCB5 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D328F76EC1D6DE4172BF54DDFE087EE0 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		D32F70D4B73ADBD5BD141097D54FC2C6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GGXAppleSpeech/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D5DD450351843B6E71707509DDAB0E13 /* GGXAppleSpeech-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGXAppleSpeech-dummy.m"; sourceTree = "<group>"; };
+		D84D742CB94DB422E94FEC3E49583FE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA4F4568F510C73E247EF2359811E534 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		DE1087416A747708A8DB42A6821EF430 /* Pods-GGXAppleSpeech_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGXAppleSpeech_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFF7BDBF7041F7C52DFB13391BA9C6FA /* TKPermissionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKPermissionKit-prefix.pch"; sourceTree = "<group>"; };
+		E11B78CFAB2574CAC749750C9CAD8EB6 /* TKPermissionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKPermissionKit.modulemap; sourceTree = "<group>"; };
+		E3F62DC7C6E06CCF31CA80B4E7626B7F /* Pods-GGXAppleSpeech_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGXAppleSpeech_Example-umbrella.h"; sourceTree = "<group>"; };
+		E41540335634A89623D0F30896A7F660 /* Pods-GGXAppleSpeech_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXAppleSpeech_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E71CBACAE816B5C268F46E58D2750255 /* Pods-GGXAppleSpeech_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXAppleSpeech_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E75DCB643B2A9D30BCE958684E4E1153 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		EDA9C8BB6877A8303DC9132F3219EF03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EFB3F3769C7920E0035BE9DF7E621F1A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		EFC53A6A188F0CDF981DB0A7F85902A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246799BC140B9047B147B9D92F0972A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB3C061FA6862F5148D9CA6A8EC8EC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F019DA69B39766E2729ED019152472D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76BFE34AB98C3C2C23364D1B5BC0C691 /* Foundation.framework in Frameworks */,
+				3C7E241289704F65F75919C22BAC2F76 /* Speech.framework in Frameworks */,
+				9A8AAAFDC24C630D14F622498ADB7153 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710AD12C8D044DC09BF96A08AC48F025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA93662ADD0CD438CDE047518C2D6234 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AFD5249BA0C2EC5A0B744B18A5A416B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75C845468C547F736C57E19EB095A08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075EE01C11E5FDFB4A270E365CAA1C8A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B97BD7B9AEEC8D99844A0411B302B6E9 /* GGXAppleSpeech.modulemap */,
+				D5DD450351843B6E71707509DDAB0E13 /* GGXAppleSpeech-dummy.m */,
+				AF3487FBAAF260DAD1278CC36E8F217A /* GGXAppleSpeech-Info.plist */,
+				7C07A6AD2628405791A6EF743A19A309 /* GGXAppleSpeech-prefix.pch */,
+				35C7B441EF7319317D17D7864D4C1C7C /* GGXAppleSpeech-umbrella.h */,
+				A0764BD375869B1B058FE6EDA49E7866 /* GGXAppleSpeech.debug.xcconfig */,
+				AD19AB5B93614B0232C4FFA2DE819AE1 /* GGXAppleSpeech.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGXAppleSpeech";
+			sourceTree = "<group>";
+		};
+		0B3C5B37E3AD26A6CBA9642E77163F73 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				CA907B5C54163BDEF218AFA953B46B3B /* TKPermissionPublic.h */,
+				BE1783B8D4DC23B0F275C011EFD12D89 /* TKPermissionPublic.m */,
+				34167026FCA18E1795346FDA3605BCCE /* Resources */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		0FB3CA589380CF23416B7FEC72162D76 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDA9C8BB6877A8303DC9132F3219EF03 /* Foundation.framework */,
+				00E5C3B2ABF9E975466A4327DA6FA6EE /* QuartzCore.framework */,
+				38CAD2D8C656BCF8549EB514B0B7968F /* Speech.framework */,
+				EFC53A6A188F0CDF981DB0A7F85902A6 /* UIKit.framework */,
+				287D6C3B491EE8B40A512F7709F6C902 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1C07509DEB2A104385A75E4772B48879 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF463F57A38D7EA460682DBFD1C4EB71 /* GGXAppleSpeech.podspec */,
+				D84D742CB94DB422E94FEC3E49583FE5 /* LICENSE */,
+				C773F553A5F0D5CBEA709CD8D4F64C7B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D6CB70C683D93472E32DD748081D43E /* Pods-GGXAppleSpeech_Example */ = {
+			isa = PBXGroup;
+			children = (
+				254451B7A728830E878372AF57A15BD7 /* Pods-GGXAppleSpeech_Example.modulemap */,
+				DE1087416A747708A8DB42A6821EF430 /* Pods-GGXAppleSpeech_Example-acknowledgements.markdown */,
+				263860305A703A30AD6120E22DAD163C /* Pods-GGXAppleSpeech_Example-acknowledgements.plist */,
+				9782411FE920774502CA46FA3B7F2DFB /* Pods-GGXAppleSpeech_Example-dummy.m */,
+				5FB4AC4595C4C506B0E410A3DE46888F /* Pods-GGXAppleSpeech_Example-frameworks.sh */,
+				29EE745FC261D85F43068A2C902D1AEB /* Pods-GGXAppleSpeech_Example-Info.plist */,
+				E3F62DC7C6E06CCF31CA80B4E7626B7F /* Pods-GGXAppleSpeech_Example-umbrella.h */,
+				E71CBACAE816B5C268F46E58D2750255 /* Pods-GGXAppleSpeech_Example.debug.xcconfig */,
+				9BCA59806EE2E9394A21D57C428FEB88 /* Pods-GGXAppleSpeech_Example.release.xcconfig */,
+			);
+			name = "Pods-GGXAppleSpeech_Example";
+			path = "Target Support Files/Pods-GGXAppleSpeech_Example";
+			sourceTree = "<group>";
+		};
+		26A2E6978497D70B7F7C7A9B9BB674DD /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4A4362EAAE5D0EBBCC885F4227303 /* TKPermissionSpeech.h */,
+				65C7BA6C4D958B55D8EFE3644AA0706F /* TKPermissionSpeech.m */,
+			);
+			name = Speech;
+			sourceTree = "<group>";
+		};
+		2AB772C3FEF8A2891325C0766401D5E1 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				676D5121E30659F4C7C7DFE7D29CEA44 /* Core */,
+				8C8C1A517F711621075369F9C03E7BC3 /* Support Files */,
+				6D2D9FF88A3C28D9C736D9DAADCAF679 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		34167026FCA18E1795346FDA3605BCCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC7148DBA80727EB1F466F8ECD8032E8 /* TKPermissionKit.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B03658A1B463C9EB28AF85A586B7F4D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EF5BB6292820E75609058CA4E680EFE /* GGXAppleSpeech */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6610315A244D25EA5CF0D2C79F24AC29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				4B637376E55FFD630EA209238B7908A3 /* GGXAppleSpeech */,
+				577ADE8483EB95E5D0654EB6176F08D4 /* Pods-GGXAppleSpeech_Example */,
+				D140091A2BA81463AE8DDE55268E4230 /* Pods-GGXAppleSpeech_Tests */,
+				50179FFCCB6706AE9EEF90B4D9393622 /* TKPermissionKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676D5121E30659F4C7C7DFE7D29CEA44 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				814D8CC2C70B8CD06798C96581137AF7 /* FBSnapshotTestCase.h */,
+				EFB3F3769C7920E0035BE9DF7E621F1A /* FBSnapshotTestCase.m */,
+				D2E541ED286A6F43C8EBE1B6016EDCB5 /* FBSnapshotTestCasePlatform.h */,
+				81DECA72858FD92AB5C0379DCF01A1F1 /* FBSnapshotTestCasePlatform.m */,
+				0E1D6F2E9396A653A356289661C3F7E6 /* FBSnapshotTestController.h */,
+				29785171C65917963252392CCB165F1C /* FBSnapshotTestController.m */,
+				2D4B2F99A842D002CCEE773FD9A5FF71 /* UIApplication+StrictKeyWindow.h */,
+				82013BB944F13806C3001F114F230F07 /* UIApplication+StrictKeyWindow.m */,
+				20A161B9E50AFBEFF3B9CAC2B53FE243 /* UIImage+Compare.h */,
+				327876D3C556FBB0836AE5BB94861EBF /* UIImage+Compare.m */,
+				E75DCB643B2A9D30BCE958684E4E1153 /* UIImage+Diff.h */,
+				5D7B728F33BB6952E8DF3F1680F51B76 /* UIImage+Diff.m */,
+				B312B7629D0BC44A2E83A9B76A97A7D6 /* UIImage+Snapshot.h */,
+				74A61D7F5AE90C8FAE49B56A7F6A973C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6D2D9FF88A3C28D9C736D9DAADCAF679 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				55B9BFCDC184B5C14D3FBFBA7653F422 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		74700E1725F7B7D43E255D66DF782300 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6CB70C683D93472E32DD748081D43E /* Pods-GGXAppleSpeech_Example */,
+				8F374E218A6FA3E0C4D85BFAD7CE0E1A /* Pods-GGXAppleSpeech_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7EF5BB6292820E75609058CA4E680EFE /* GGXAppleSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				088EDBDC018BF1C895E7D036F8D62D98 /* LKSpeechRecognizer.swift */,
+				D32F70D4B73ADBD5BD141097D54FC2C6 /* ReplaceMe.swift */,
+				2D2F7ACEA272473BC08C8FBD3F52F808 /* SpeechConfig.swift */,
+				1C07509DEB2A104385A75E4772B48879 /* Pod */,
+				075EE01C11E5FDFB4A270E365CAA1C8A /* Support Files */,
+			);
+			name = GGXAppleSpeech;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8C8C1A517F711621075369F9C03E7BC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2830B806CB142485B7D12AEFF4438E93 /* FBSnapshotTestCase.modulemap */,
+				5C8B2EB47C1D05BA6D8E4D0107500F0F /* FBSnapshotTestCase-dummy.m */,
+				C438273B8FCF79316B14246955E1DFD6 /* FBSnapshotTestCase-Info.plist */,
+				81FE10314FB38C71E7A3F759B3430056 /* FBSnapshotTestCase-prefix.pch */,
+				60A114FC0D964B0BDA211486BB76C839 /* FBSnapshotTestCase-umbrella.h */,
+				D328F76EC1D6DE4172BF54DDFE087EE0 /* FBSnapshotTestCase.debug.xcconfig */,
+				DA4F4568F510C73E247EF2359811E534 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		8F374E218A6FA3E0C4D85BFAD7CE0E1A /* Pods-GGXAppleSpeech_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB48A0EF1FAE8407D495703D953AF33E /* Pods-GGXAppleSpeech_Tests.modulemap */,
+				24549BD1F1F6CDD861A6A72651ECAE7D /* Pods-GGXAppleSpeech_Tests-acknowledgements.markdown */,
+				E41540335634A89623D0F30896A7F660 /* Pods-GGXAppleSpeech_Tests-acknowledgements.plist */,
+				19319DB23DE8FB761C416CF8491E8700 /* Pods-GGXAppleSpeech_Tests-dummy.m */,
+				5315DE6938FA8B8F6016BFD2B70F3194 /* Pods-GGXAppleSpeech_Tests-frameworks.sh */,
+				590F766AE1293A5A21857CF5E2698908 /* Pods-GGXAppleSpeech_Tests-Info.plist */,
+				9B967686020229B3BD5F49B33C70EB1B /* Pods-GGXAppleSpeech_Tests-umbrella.h */,
+				984151DBE21E1FC16E82D456EBE0A032 /* Pods-GGXAppleSpeech_Tests.debug.xcconfig */,
+				06BCACAA4BD4688AD162D05678BB4E86 /* Pods-GGXAppleSpeech_Tests.release.xcconfig */,
+			);
+			name = "Pods-GGXAppleSpeech_Tests";
+			path = "Target Support Files/Pods-GGXAppleSpeech_Tests";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB3CA589380CF23416B7FEC72162D76 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C94E0E256CDB6977B22BCC5D821904 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E11B78CFAB2574CAC749750C9CAD8EB6 /* TKPermissionKit.modulemap */,
+				A4E36E3B4A23C17B94D562AE41D5349A /* TKPermissionKit-dummy.m */,
+				31DD06D502F38BFE9291F5EC3F46477B /* TKPermissionKit-Info.plist */,
+				DFF7BDBF7041F7C52DFB13391BA9C6FA /* TKPermissionKit-prefix.pch */,
+				B0C8331A58EE5276080E274AF23A5BB4 /* TKPermissionKit-umbrella.h */,
+				D1CFA53684EADFE733D5466F40704EFA /* TKPermissionKit.debug.xcconfig */,
+				09C81FBC25BB745AAF3E7A934AFF2561 /* TKPermissionKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TKPermissionKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3B03658A1B463C9EB28AF85A586B7F4D /* Development Pods */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				E5D73DDA5EF1E80397EA1313AB76402F /* Pods */,
+				6610315A244D25EA5CF0D2C79F24AC29 /* Products */,
+				74700E1725F7B7D43E255D66DF782300 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E5D73DDA5EF1E80397EA1313AB76402F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB772C3FEF8A2891325C0766401D5E1 /* FBSnapshotTestCase */,
+				EAD5C95B9EE2577489C9903C25D98F98 /* TKPermissionKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAD5C95B9EE2577489C9903C25D98F98 /* TKPermissionKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B3C5B37E3AD26A6CBA9642E77163F73 /* Public */,
+				26A2E6978497D70B7F7C7A9B9BB674DD /* Speech */,
+				C9C94E0E256CDB6977B22BCC5D821904 /* Support Files */,
+			);
+			name = TKPermissionKit;
+			path = TKPermissionKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35F11B65E0013C7D6D92399B68F0DC70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7065D27DE06C9D7B60A3B4A2CE20EB /* TKPermissionKit-umbrella.h in Headers */,
+				F7390CB3EC481EE11EB881101F1964C2 /* TKPermissionPublic.h in Headers */,
+				F41AFEB0E58E802F134C4159D84071BB /* TKPermissionSpeech.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AF9904942F6189CD26054803962864 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4961AA983E316A0974361C28748379D1 /* Pods-GGXAppleSpeech_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF90E1087994C3C4E61A8AB7FB33D48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6077523B973B905446D9AF23BF4D4B72 /* Pods-GGXAppleSpeech_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31BF714EB4B55E8E88B8B67C1301F51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7FEA1705CAAED324D75645EA7B7250 /* GGXAppleSpeech-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01C02F17D09659E2A27F160B70A19A45 /* Pods-GGXAppleSpeech_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A8B0E021D46E1EA7FA3AF275A67AE81 /* Build configuration list for PBXNativeTarget "Pods-GGXAppleSpeech_Tests" */;
+			buildPhases = (
+				B5AF9904942F6189CD26054803962864 /* Headers */,
+				E6E902B1708DA3005E9364679B576318 /* Sources */,
+				710AD12C8D044DC09BF96A08AC48F025 /* Frameworks */,
+				374EB9E1377DADC6D8CB34A074B044A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B40DCD82147157E33C6784F1C81C8289 /* PBXTargetDependency */,
+				3323014D8C6F5A72FF6164EFB5FF26E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GGXAppleSpeech_Tests";
+			productName = Pods_GGXAppleSpeech_Tests;
+			productReference = D140091A2BA81463AE8DDE55268E4230 /* Pods-GGXAppleSpeech_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		08B67F5B189DFDC970C60ECBDB805D78 /* Pods-GGXAppleSpeech_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA71E59135D1F6065CA1A8B5FA7CD24D /* Build configuration list for PBXNativeTarget "Pods-GGXAppleSpeech_Example" */;
+			buildPhases = (
+				CBF90E1087994C3C4E61A8AB7FB33D48 /* Headers */,
+				5F114C80CDFB91F5576B7AE9CCD4EEEA /* Sources */,
+				7AFD5249BA0C2EC5A0B744B18A5A416B /* Frameworks */,
+				58AF49522A6F333A5AD7E2D7B9A3B3E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CE63EBF863A7D6CE0269E477E204A11 /* PBXTargetDependency */,
+				693174D7459E091ABDAF70C0C35C8292 /* PBXTargetDependency */,
+			);
+			name = "Pods-GGXAppleSpeech_Example";
+			productName = Pods_GGXAppleSpeech_Example;
+			productReference = 577ADE8483EB95E5D0654EB6176F08D4 /* Pods-GGXAppleSpeech_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1B0BFEA822589D0BC2E04BE0761BA9A /* TKPermissionKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E0835931BE0F28E69618E5AFF74E1B /* Build configuration list for PBXNativeTarget "TKPermissionKit" */;
+			buildPhases = (
+				35F11B65E0013C7D6D92399B68F0DC70 /* Headers */,
+				EB79DD2CEB8C5AD294F89F44F26BAC8D /* Sources */,
+				4F019DA69B39766E2729ED019152472D /* Frameworks */,
+				12113868F9C12AFB518B188E92177D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKPermissionKit;
+			productName = TKPermissionKit;
+			productReference = 50179FFCCB6706AE9EEF90B4D9393622 /* TKPermissionKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0C7A77135B0DBB7BA0E598DB5CCF8E5 /* GGXAppleSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB54D1E5B129F4FDB5B770EF700DDED3 /* Build configuration list for PBXNativeTarget "GGXAppleSpeech" */;
+			buildPhases = (
+				E31BF714EB4B55E8E88B8B67C1301F51 /* Headers */,
+				C6A1F67E346D41BD79834102415E5E39 /* Sources */,
+				246799BC140B9047B147B9D92F0972A0 /* Frameworks */,
+				609C74D26302B6DC02F8C6C9A867D15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50096457C2BFA8F6B745B421F77690E9 /* PBXTargetDependency */,
+			);
+			name = GGXAppleSpeech;
+			productName = GGXAppleSpeech;
+			productReference = 4B637376E55FFD630EA209238B7908A3 /* GGXAppleSpeech */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6610315A244D25EA5CF0D2C79F24AC29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				D0C7A77135B0DBB7BA0E598DB5CCF8E5 /* GGXAppleSpeech */,
+				08B67F5B189DFDC970C60ECBDB805D78 /* Pods-GGXAppleSpeech_Example */,
+				01C02F17D09659E2A27F160B70A19A45 /* Pods-GGXAppleSpeech_Tests */,
+				C1B0BFEA822589D0BC2E04BE0761BA9A /* TKPermissionKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12113868F9C12AFB518B188E92177D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADB1E5E477C5CBABD4E39DC9FAD7107 /* TKPermissionKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374EB9E1377DADC6D8CB34A074B044A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF49522A6F333A5AD7E2D7B9A3B3E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		609C74D26302B6DC02F8C6C9A867D15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F114C80CDFB91F5576B7AE9CCD4EEEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9327479BDC66537567976016CED14B /* Pods-GGXAppleSpeech_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A1F67E346D41BD79834102415E5E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AD18DB7CC5B4B9D11F88A84826A6DF /* GGXAppleSpeech-dummy.m in Sources */,
+				833690D87A6B2AC91515ACA69CC8B75F /* LKSpeechRecognizer.swift in Sources */,
+				32AB2A1A49199439EDCA78F181C8BDBB /* ReplaceMe.swift in Sources */,
+				CE87B11F92A9B509C77CDE34139281F6 /* SpeechConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E902B1708DA3005E9364679B576318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5516F32C52772155C8BF6ED941B104 /* Pods-GGXAppleSpeech_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB79DD2CEB8C5AD294F89F44F26BAC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629DE22A727173E48AC017C60E34DF3D /* TKPermissionKit-dummy.m in Sources */,
+				A482A6586AD89912B9AA9FBCA7F10F20 /* TKPermissionPublic.m in Sources */,
+				ABB0084ECCA6410954EE73950F649993 /* TKPermissionSpeech.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3323014D8C6F5A72FF6164EFB5FF26E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GGXAppleSpeech_Example";
+			target = 08B67F5B189DFDC970C60ECBDB805D78 /* Pods-GGXAppleSpeech_Example */;
+			targetProxy = A50F8AF24440E97834C6C815D7514F07 /* PBXContainerItemProxy */;
+		};
+		50096457C2BFA8F6B745B421F77690E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKPermissionKit;
+			target = C1B0BFEA822589D0BC2E04BE0761BA9A /* TKPermissionKit */;
+			targetProxy = 8E40E5F9B68AFB5D2282B494615BFC1C /* PBXContainerItemProxy */;
+		};
+		5CE63EBF863A7D6CE0269E477E204A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GGXAppleSpeech;
+			target = D0C7A77135B0DBB7BA0E598DB5CCF8E5 /* GGXAppleSpeech */;
+			targetProxy = 8145620255E55A9A07684D9DFDD5B271 /* PBXContainerItemProxy */;
+		};
+		693174D7459E091ABDAF70C0C35C8292 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKPermissionKit;
+			target = C1B0BFEA822589D0BC2E04BE0761BA9A /* TKPermissionKit */;
+			targetProxy = 8F354B1596B568EC4165AC880010B86C /* PBXContainerItemProxy */;
+		};
+		B40DCD82147157E33C6784F1C81C8289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = AA3B24C69A5CD131F46B07F2C4A72C44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C169D5CA0E6034866399E80C4516301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCA59806EE2E9394A21D57C428FEB88 /* Pods-GGXAppleSpeech_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGXAppleSpeech_Example/Pods-GGXAppleSpeech_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGXAppleSpeech_Example/Pods-GGXAppleSpeech_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4F4568F510C73E247EF2359811E534 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		232E65C62D65676E3458D2010194DA8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C81FBC25BB745AAF3E7A934AFF2561 /* TKPermissionKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKPermissionKit/TKPermissionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKPermissionKit/TKPermissionKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKPermissionKit/TKPermissionKit.modulemap";
+				PRODUCT_MODULE_NAME = TKPermissionKit;
+				PRODUCT_NAME = TKPermissionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		392B321A1EDF9FF75D065C0BF338483B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BCACAA4BD4688AD162D05678BB4E86 /* Pods-GGXAppleSpeech_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGXAppleSpeech_Tests/Pods-GGXAppleSpeech_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGXAppleSpeech_Tests/Pods-GGXAppleSpeech_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DC3D541767F7B386F41DEBEB8AB021A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD19AB5B93614B0232C4FFA2DE819AE1 /* GGXAppleSpeech.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGXAppleSpeech/GGXAppleSpeech-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGXAppleSpeech/GGXAppleSpeech-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGXAppleSpeech/GGXAppleSpeech.modulemap";
+				PRODUCT_MODULE_NAME = GGXAppleSpeech;
+				PRODUCT_NAME = GGXAppleSpeech;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		407838CB25B420B8E2DF00FEE778E1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0764BD375869B1B058FE6EDA49E7866 /* GGXAppleSpeech.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGXAppleSpeech/GGXAppleSpeech-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGXAppleSpeech/GGXAppleSpeech-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGXAppleSpeech/GGXAppleSpeech.modulemap";
+				PRODUCT_MODULE_NAME = GGXAppleSpeech;
+				PRODUCT_NAME = GGXAppleSpeech;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D328F76EC1D6DE4172BF54DDFE087EE0 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		864C2AAE6209F2754B4CF331DD44820D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71CBACAE816B5C268F46E58D2750255 /* Pods-GGXAppleSpeech_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGXAppleSpeech_Example/Pods-GGXAppleSpeech_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGXAppleSpeech_Example/Pods-GGXAppleSpeech_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		867AE75C630D852219E5B9C77FBDFCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984151DBE21E1FC16E82D456EBE0A032 /* Pods-GGXAppleSpeech_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GGXAppleSpeech_Tests/Pods-GGXAppleSpeech_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GGXAppleSpeech_Tests/Pods-GGXAppleSpeech_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		880D3DD080FE00C276FEE144F5F5C634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CFA53684EADFE733D5466F40704EFA /* TKPermissionKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKPermissionKit/TKPermissionKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKPermissionKit/TKPermissionKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKPermissionKit/TKPermissionKit.modulemap";
+				PRODUCT_MODULE_NAME = TKPermissionKit;
+				PRODUCT_NAME = TKPermissionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E0835931BE0F28E69618E5AFF74E1B /* Build configuration list for PBXNativeTarget "TKPermissionKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D3DD080FE00C276FEE144F5F5C634 /* Debug */,
+				232E65C62D65676E3458D2010194DA8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A8B0E021D46E1EA7FA3AF275A67AE81 /* Build configuration list for PBXNativeTarget "Pods-GGXAppleSpeech_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867AE75C630D852219E5B9C77FBDFCC3 /* Debug */,
+				392B321A1EDF9FF75D065C0BF338483B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA71E59135D1F6065CA1A8B5FA7CD24D /* Build configuration list for PBXNativeTarget "Pods-GGXAppleSpeech_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C2AAE6209F2754B4CF331DD44820D /* Debug */,
+				0C169D5CA0E6034866399E80C4516301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB54D1E5B129F4FDB5B770EF700DDED3 /* Build configuration list for PBXNativeTarget "GGXAppleSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407838CB25B420B8E2DF00FEE778E1B7 /* Debug */,
+				3DC3D541767F7B386F41DEBEB8AB021A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
